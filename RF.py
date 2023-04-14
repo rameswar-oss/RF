@@ -53,7 +53,7 @@ def diabetes_predd(input_parameters : model_input):
     
     prediction = RF.predict_proba([input_list])
     
-    print(prediction)
+    pint(prediction)
 #python -m uvicorn RF:app --reload
 
 
