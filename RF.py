@@ -52,8 +52,8 @@ def diabetes_predd(input_parameters : model_input):
     input_list = [gender, age, hypertension,heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi,smoking_status]
     
     prediction = RF.predict_proba([input_list])
-    df
-    prediction = DT.predict_proba([input_list])
+    
+    print(prediction)
 #python -m uvicorn RF:app --reload
 
 
